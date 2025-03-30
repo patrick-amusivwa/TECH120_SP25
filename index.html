@@ -13,7 +13,6 @@
 </head>
 <body>
 
-
     <div class="container">
         <h1>Student Management CRUD</h1>
         <div class="input-container">
@@ -25,7 +24,7 @@
         </div>
 
         <button class="button" type="submit" id="submit" onclick="addStudent()">Add Student</button>
-    
+
         <input class="search" type="text" id="search" onkeyup="search()" placeholder="Search By Name, email or Degree">
 
         <table class="table" id="table">
@@ -39,11 +38,20 @@
                     <th>Degree</th>
                 </tr>
             </thead>
-    
+
             <tbody id="tbody">
             </tbody>
         </table>
     </div>
+
+    <!-- Footer with team names -->
+    <footer class="footer">
+        <div class="footer-names">
+            <p>Ali Alajmi (77464)</p>
+            <p>Salma Alazmi (10093132)</p>
+            <p>Athoob Almutar (10088045)</p>
+        </div>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
